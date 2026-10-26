@@ -1,0 +1,6 @@
+/* src/components/molecules/AddTodoForm.css */
+.add-form {
+    display: flex;
+    gap: var(--space);
+}
+.add-form .input { flex: 1; }   /* the molecule decides that the input grows */
